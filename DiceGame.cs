@@ -1,7 +1,7 @@
 ﻿static class DiceGame
 {
     private static int userLifes = 3;
-    private static int randomNumber = NumberGenerator._randomNumberGenerator;
+    private static int randomNumber = NumberGenerator.RandomNumberGenerator;
     private static bool gameState = true;
 
     public static void StartGame()
